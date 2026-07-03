@@ -31,7 +31,7 @@ with loc_col2:
 # Load Knowledge Base
 # ----------------------------
 try:
-    with open("place.txt", "r", encoding="utf-8") as f:
+    with open("requirements.txt", "r", encoding="utf-8") as f:
         kb = f.read()
 except FileNotFoundError:
     kb = "No tourist information available."
