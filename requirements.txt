@@ -1,5 +1,4 @@
-Place[] = [
-  {
+
     id: '1',
     name: 'Sigiriya Rock Fortress',
     description: 'Ancient rock fortress and palace ruins, UNESCO World Heritage Site with stunning frescoes and landscaped gardens.',
@@ -10,8 +9,8 @@ Place[] = [
     region: 'Central Province',
     entryFee: 'LKR 5,000 (Foreign) / LKR 100 (Local)',
     visitingHours: '7:00 AM - 5:30 PM',
-  },
-  {
+  ,
+  
     id: '2',
     name: 'Temple of the Tooth',
     description: 'Sacred Buddhist temple housing a tooth relic of Buddha, located in the royal palace complex.',
@@ -22,8 +21,8 @@ Place[] = [
     region: 'Central Province',
     entryFee: 'LKR 2,000 (Foreign) / LKR 100 (Local)',
     visitingHours: '5:30 AM - 8:00 PM',
-  },
-  {
+  ,
+  
     id: '3',
     name: 'Yala National Park',
     description: 'Most visited wildlife park in Sri Lanka, famous for leopards, elephants, and diverse bird species.',
@@ -34,8 +33,8 @@ Place[] = [
     region: 'Southern Province',
     entryFee: 'LKR 4,000 - 8,000 (varies by safari)',
     visitingHours: '6:00 AM - 6:00 PM',
-  },
-  {
+  ,
+  
     id: '4',
     name: 'Galle Fort',
     description: 'Historic fortification built by Portuguese and later fortified by Dutch, featuring colonial architecture.',
@@ -46,8 +45,8 @@ Place[] = [
     region: 'Southern Province',
     entryFee: 'Free (open area)',
     visitingHours: 'Open 24/7',
-  },
-  {
+  ,
+  
     id: '5',
     name: 'Adam\'s Peak (Sri Pada)',
     description: 'Sacred mountain with a footprint at the summit, pilgrimage site for multiple religions.',
@@ -58,8 +57,8 @@ Place[] = [
     region: 'Sabaragamuwa Province',
     entryFee: 'Free',
     visitingHours: 'Best climbed at night (Dec-May season)',
-  },
-  {
+  ,
+  
     id: '6',
     name: 'Ella Rock',
     description: 'Popular hiking destination offering panoramic views of tea plantations and valleys.',
@@ -70,8 +69,8 @@ Place[] = [
     region: 'Uva Province',
     entryFee: 'Free',
     visitingHours: 'Best visited early morning',
-  },
-  {
+  ,
+  
     id: '7',
     name: 'Anuradhapura Ancient City',
     description: 'Sacred city with ancient monasteries, dagobas, and the sacred Bo tree over 2,000 years old.',
@@ -82,8 +81,8 @@ Place[] = [
     region: 'North Central Province',
     entryFee: 'LKR 4,000 (Foreign) / LKR 100 (Local)',
     visitingHours: '6:00 AM - 6:00 PM',
-  },
-  {
+  ,
+  
     id: '8',
     name: 'Colombo Lotus Tower',
     description: 'Tallest self-supported structure in South Asia with observation deck and rotating restaurant.',
@@ -94,8 +93,8 @@ Place[] = [
     region: 'Western Province',
     entryFee: 'LKR 1,500 - 3,000',
     visitingHours: '10:00 AM - 10:00 PM',
-  },
-  {
+  ,
+  
     id: '9',
     name: 'Dambulla Cave Temple',
     description: 'Largest and best-preserved cave temple complex with magnificent Buddhist murals and statues.',
@@ -106,8 +105,8 @@ Place[] = [
     region: 'Central Province',
     entryFee: 'LKR 2,000 (Foreign) / LKR 100 (Local)',
     visitingHours: '7:00 AM - 7:00 PM',
-  },
-  {
+  ,
+  
     id: '10',
     name: 'Mirissa Beach',
     description: 'Stunning crescent-shaped beach known for whale watching, surfing, and vibrant nightlife.',
@@ -118,8 +117,8 @@ Place[] = [
     region: 'Southern Province',
     entryFee: 'Free (Beach access)',
     visitingHours: 'Open 24/7',
-  },
-  {
+  ,
+  
     id: '11',
     name: 'Polonnaruwa Ancient City',
     description: 'Medieval capital with well-preserved ruins including palaces, temples, and giant Buddha statues.',
@@ -130,8 +129,8 @@ Place[] = [
     region: 'North Central Province',
     entryFee: 'LKR 4,000 (Foreign) / LKR 100 (Local)',
     visitingHours: '7:00 AM - 6:00 PM',
-  },
-  {
+  ,
+  
     id: '12',
     name: 'Horton Plains National Park',
     description: 'Cloud forest plateau featuring World\'s End cliff with dramatic 4,000 ft drop and Baker\'s Falls.',
@@ -142,8 +141,8 @@ Place[] = [
     region: 'Central Province',
     entryFee: 'LKR 3,000 - 5,000',
     visitingHours: '6:00 AM - 6:00 PM',
-  },
-  {
+  ,
+  
     id: '13',
     name: 'Kelaniya Raja Maha Vihara',
     description: 'Ancient Buddhist temple with beautiful paintings and historical significance near Colombo.',
@@ -154,8 +153,8 @@ Place[] = [
     region: 'Western Province',
     entryFee: 'Free (donations welcome)',
     visitingHours: '5:00 AM - 10:00 PM',
-  },
-  {
+  ,
+  
     id: '14',
     name: 'National Museum Colombo',
     description: 'Largest museum in Sri Lanka showcasing history, art, and cultural heritage collections.',
@@ -166,8 +165,8 @@ Place[] = [
     region: 'Western Province',
     entryFee: 'LKR 1,000 (Foreign) / LKR 100 (Local)',
     visitingHours: '9:00 AM - 5:00 PM (Closed Fridays)',
-  },
-  {
+  ,
+  
     id: '15',
     name: 'Udawalawe National Park',
     description: 'Wildlife sanctuary famous for large herds of elephants and diverse bird species.',
@@ -178,8 +177,8 @@ Place[] = [
     region: 'Sabaragamuwa Province',
     entryFee: 'LKR 3,500 - 7,000',
     visitingHours: '6:00 AM - 6:00 PM',
-  },
-  {
+  ,
+  
     id: '16',
     name: 'Jami Ul-Alfar Mosque',
     description: 'Iconic red and white striped mosque, stunning Indo-Saracenic architecture in Pettah.',
@@ -190,8 +189,8 @@ Place[] = [
     region: 'Western Province',
     entryFee: 'Free (modest dress required)',
     visitingHours: 'Prayer times (visitors outside prayer hours)',
-  },
-  {
+  ,
+  
     id: '17',
     name: 'Nine Arch Bridge',
     description: 'Iconic railway viaduct surrounded by lush tea plantations and forest, popular photo spot.',
@@ -202,8 +201,8 @@ Place[] = [
     region: 'Uva Province',
     entryFee: 'Free',
     visitingHours: 'Best during train passing times',
-  },
-  {
+  ,
+  
     id: '18',
     name: 'Pinnawala Elephant Orphanage',
     description: 'Conservation center caring for orphaned elephants, witness feeding and bathing rituals.',
@@ -214,8 +213,8 @@ Place[] = [
     region: 'Sabaragamuwa Province',
     entryFee: 'LKR 3,000 (Foreign) / LKR 100 (Local)',
     visitingHours: '8:30 AM - 5:30 PM',
-  },
-  {
+  ,
+  
     id: '19',
     name: 'Arugam Bay',
     description: 'World-renowned surf spot on the east coast with pristine beaches and laid-back vibe.',
@@ -226,8 +225,8 @@ Place[] = [
     region: 'Eastern Province',
     entryFee: 'Free (Beach access)',
     visitingHours: 'Open 24/7',
-  },
-  {
+  ,
+  
     id: '20',
     name: 'Gangaramaya Temple',
     description: 'Important Buddhist temple blending modern and traditional architecture with museum and library.',
@@ -238,8 +237,8 @@ Place[] = [
     region: 'Western Province',
     entryFee: 'LKR 500',
     visitingHours: '6:00 AM - 10:00 PM',
-  },
-  {
+  ,
+  
     id: '21',
     name: 'Jaffna Fort',
     description: 'Historic Portuguese and Dutch fort, one of the largest in Asia with star-shaped architecture.',
@@ -250,7 +249,7 @@ Place[] = [
     region: 'Northern Province',
     entryFee: 'Free',
     visitingHours: '8:00 AM - 6:00 PM',
-  },
+  ,
   {
     id: '22',
     name: 'Nallur Kandaswamy Temple',
