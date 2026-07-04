@@ -31,7 +31,7 @@ with loc_col2:
 # Load Knowledge Base
 # ----------------------------
 try:
-    with open("place.txt", "r", encoding="utf-8") as f:
+    with open("requirements.txt", "r", encoding="utf-8") as f:
         kb = f.read()
 except FileNotFoundError:
     kb = "No tourist information available."
@@ -39,7 +39,7 @@ except FileNotFoundError:
 # ----------------------------
 # Gemini API Key
 # ----------------------------
-API_KEY = "AQ.Ab8RN6JDLnicsupejq2n2_43XAO7BD5-NjnMAeIclFx0qJWJQg"   # Replace with your API key
+API_KEY = "AQ.Ab8RN6KYXYWTp7jrDmLU4Q_7j2Y4cge20YPvk8wZ1YcjbzRupA"   # Replace with your API key
 
 MODEL = "gemini-2.5-flash"
 
