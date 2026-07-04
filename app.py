@@ -39,7 +39,7 @@ except FileNotFoundError:
 # ----------------------------
 # Gemini API Key
 # ----------------------------
-API_KEY = "AQ.Ab8RN6KfX9qduQX2uOuCNgfG3GCkNKKxhF7uzK1fY5WfeaK6sg"   # Replace with your API key
+API_KEY = "AQ.Ab8RN6JXwmHVZbuR39ZJ87f8AJWLaxUCK0NPfQZVeoFRKl9SKA"   # Replace with your API key
 
 MODEL = "gemini-2.5-flash"
 
