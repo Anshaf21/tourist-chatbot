@@ -39,7 +39,18 @@ except FileNotFoundError:
 # ----------------------------
 # Gemini API Key
 # ----------------------------
-API_KEY = "AQ.Ab8RN6JXwmHVZbuR39ZJ87f8AJWLaxUCK0NPfQZVeoFRKl9SKA"   # Replace with your API key
+
+st.sidebar.title("⚙️ Settings")
+
+API_KEY = st.sidebar.text_input(
+    "Enter your Gemini API Key",
+    type="password",
+    help="Get a free key at https://aistudio.google.com/apikey",
+)
+
+if not API_KEY:
+    st.sidebar.warning("Please enter your API key to continue.")
+    st.stop()  # halts execution here until a key is provided
 
 MODEL = "gemini-2.5-flash"
 
@@ -116,7 +127,7 @@ if user_input:
         answer = response.text
 
     except Exception as e:
-        answer = f"❌ Error: UNAVILABLE"
+        answer = f"❌ Error: UNAVILABLE {e}"
 
     # Display assistant response
     st.session_state.messages.append(
